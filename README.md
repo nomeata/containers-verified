@@ -18,7 +18,7 @@ depend on both `containers` and `containers-verified`, and use [package-qualifie
 This package does not re-export any of the `….Internals` modules.
 
 We cannot control which type class instances are re-exported; these therefore
-may give you access to unverified code. Also, the `conatiners` code contains
+may give you access to unverified code. Also, the `containers` code contains
 some CPP directives; these can enable different code on your machine than the
 code that we verified (e.g. different bit-widths).
 
