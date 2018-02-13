@@ -74,7 +74,7 @@ module Data.IntSet (
             -- ** List
             , elems
             , toList
---            , fromList
+            , fromList
 
             -- ** Ordered list
             , toAscList
