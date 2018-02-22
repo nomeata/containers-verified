@@ -8,14 +8,14 @@ module Data.Set (
 
             -- * Query
             , S.null
---          , size
+            , size
             , member
             , notMember
 --          , lookupLT
 --          , lookupGT
 --          , lookupLE
 --          , lookupGE
---          , isSubsetOf
+            , isSubsetOf
 --          , isProperSubsetOf
 --          , disjoint
 
@@ -29,19 +29,19 @@ module Data.Set (
             -- * Combine
             , union
 --          , unions
---          , difference
---          , intersection
+            , difference
+            , intersection
 --          , cartesianProduct
 --          , disjointUnion
 
---          -- * Filter
---          , S.filter
+            -- * Filter
+            , S.filter
 --          , takeWhileAntitone
 --          , dropWhileAntitone
 --          , spanAntitone
---          , partition
---          , split
---          , splitMember
+            , partition
+            , split
+            , splitMember
 --          , splitRoot
 
 --          -- * Indexed
@@ -57,9 +57,9 @@ module Data.Set (
 --          , S.map
 --          , mapMonotonic
 
---          -- * Folds
---          , S.foldr
---          , S.foldl
+            -- * Folds
+            , S.foldr
+            , S.foldl
 --          -- ** Strict folds
 --          , foldr'
 --          , foldl'
@@ -81,12 +81,12 @@ module Data.Set (
 --          -- * Conversion
 
 --          -- ** List
---          , elems
---          , toList
+            , elems
+            , toList
 --          , fromList
 
 --          -- ** Ordered list
---          , toAscList
+            , toAscList
 --          , toDescList
 --          , fromAscList
 --          , fromDescList
