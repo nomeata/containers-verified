@@ -1,4 +1,3 @@
-
 {-# OPTIONS_HADDOCK not-home #-}
 {-# LANGUAGE PackageImports #-}
 {-# LANGUAGE NoImplicitPrelude #-}
@@ -26,7 +25,7 @@ module Data.IntSet (
 --            , lookupGE
             , isSubsetOf
             , isProperSubsetOf
---            , disjoint
+            , disjoint
 
             -- * Construction
             , empty

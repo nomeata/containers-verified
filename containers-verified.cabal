@@ -53,6 +53,7 @@ library
   exposed-modules:
         Data.Set
         Data.IntSet
+        Data.Map
 
 source-repository head
     type:     git

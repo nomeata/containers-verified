@@ -1,4 +1,8 @@
+{-# OPTIONS_HADDOCK not-home #-}
+{-# LANGUAGE PackageImports #-}
+{-# LANGUAGE NoImplicitPrelude #-}
 
+-- | Please see the documentation of <http://hackage.haskell.org/package/containers containers> for details.
 module Data.Set (
             -- * Set type
               Set          -- instance Eq,Ord,Show,Read,Data,Typeable
