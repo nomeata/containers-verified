@@ -42,8 +42,8 @@ module Data.IntSet (
             -- * Filter
             , IS.filter
             , partition
---            , split
---            , splitMember
+            , split
+            , splitMember
 --            , splitRoot
 
             -- * Map

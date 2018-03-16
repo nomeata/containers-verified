@@ -23,8 +23,10 @@ some CPP directives; these can enable different code on your machine than the
 code that we verified (e.g. different bit-widths).
 
 To learn more about what exactly has been verified, and how wide the
-formalization gap is, read our paper (which we are currenty writing).
+formalization gap is, see the paper “Ready, Set, Verify! Applying hs-to-coq to
+non-trivial Haskell code” by Joachim Breitner, Antal Spector-Zabusky, Yao Li,
+Christine Rizkallah, John Wiegley and Stephanie Weirich.
 
 The long-term maintenance plan for this package is not fleshed out yet, and
-certainly depends on user-demand. Let us know your needs! (And your abilities
-to contribute...)
+certainly depends on user-demand. Let us know your needs! (And your technical
+or financial abilities to contribute...)

@@ -21,7 +21,7 @@ module Data.Set (
 --          , lookupGE
             , isSubsetOf
 --          , isProperSubsetOf
---          , disjoint
+            , disjoint
 
             -- * Construction
             , empty
@@ -32,7 +32,7 @@ module Data.Set (
 
             -- * Combine
             , union
---          , unions
+            , unions
             , difference
             , intersection
 --          , cartesianProduct
@@ -53,13 +53,13 @@ module Data.Set (
 --          , findIndex
 --          , elemAt
 --          , deleteAt
---          , S.take
---          , S.drop
---          , S.splitAt
+            , S.take
+            , S.drop
+            , S.splitAt
 
 --          -- * Map
 --          , S.map
---          , mapMonotonic
+            , mapMonotonic
 
             -- * Folds
             , S.foldr
@@ -71,16 +71,16 @@ module Data.Set (
 --          , fold
 
 --          -- * Min\/Max
---          , lookupMin
---          , lookupMax
+            , lookupMin
+            , lookupMax
 --          , findMin
 --          , findMax
 --          , deleteMin
 --          , deleteMax
 --          , deleteFindMin
 --          , deleteFindMax
---          , maxView
---          , minView
+            , maxView
+            , minView
 
 --          -- * Conversion
 
@@ -91,11 +91,11 @@ module Data.Set (
 
 --          -- ** Ordered list
             , toAscList
---          , toDescList
---          , fromAscList
---          , fromDescList
---          , fromDistinctAscList
---          , fromDistinctDescList
+            , toDescList
+            , fromAscList
+            , fromDescList
+            , fromDistinctAscList
+            , fromDistinctDescList
             ) where
 
 import Data.Set.Internal as S
