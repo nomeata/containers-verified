@@ -29,8 +29,9 @@ description:
   code that we verified (e.g. different bit-widths).
   .
   To learn more about what exactly has been verified, and how wide the
-  formalization gap is, see the paper “Ready, Set, Verify! Applying hs-to-coq
-  to non-trivial Haskell code” by Joachim Breitner, Antal Spector-Zabusky, Yao
+  formalization gap is, see the paper
+  <https://arxiv.org/abs/1803.06960 “Ready, Set, Verify! Applying hs-to-coq to non-trivial Haskell code”>
+  by Joachim Breitner, Antal Spector-Zabusky, Yao
   Li, Christine Rizkallah, John Wiegley and Stephanie Weirich.
 
   .
@@ -57,6 +58,9 @@ library
         Data.Set
         Data.IntSet
         Data.Map
+  -- The following ensures that GHCi will not complain about ambiguous module
+  -- names when both containers and containers-verified is in a project.
+  exposed: False
 
 source-repository head
     type:     git
