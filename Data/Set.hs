@@ -58,7 +58,7 @@ module Data.Set (
             , S.splitAt
 
 --          -- * Map
---          , S.map
+            , S.map
             , mapMonotonic
 
             -- * Folds
@@ -87,7 +87,7 @@ module Data.Set (
 --          -- ** List
             , elems
             , toList
---          , fromList
+            , fromList
 
 --          -- ** Ordered list
             , toAscList
