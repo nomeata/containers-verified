@@ -1,5 +1,5 @@
 name:                containers-verified
-version:             0.5.11.0
+version:             0.6.0.1
 synopsis:            Formally verified drop-in replacement of containers
 description:
   In the context of the <https://deepspec.org/main DeepSpec project>, parts of the
@@ -30,9 +30,9 @@ description:
   .
   To learn more about what exactly has been verified, and how wide the
   formalization gap is, see the paper
-  <https://arxiv.org/abs/1803.06960 “Ready, Set, Verify! Applying hs-to-coq to non-trivial Haskell code”>
-  by Joachim Breitner, Antal Spector-Zabusky, Yao
-  Li, Christine Rizkallah, John Wiegley and Stephanie Weirich.
+  <https://arxiv.org/abs/1803.06960 “Ready, Set, Verify! Applying hs-to-coq to real-world Haskell code”>
+  by Joachim Breitner, Antal Spector-Zabusky, Yao Li,
+  Christine Rizkallah, John Wiegley and Stephanie Weirich.
 
   .
   The long-term maintenance plan for this package is not fleshed out yet, and
@@ -52,7 +52,7 @@ extra-source-files:  ChangeLog.md
 cabal-version:       >=1.10
 
 library
-  build-depends:       containers ==0.5.11.0
+  build-depends:       containers ==0.6.0.1
   default-language:    Haskell2010
   exposed-modules:
         Data.Set
